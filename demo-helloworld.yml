@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'b426dd7b-ea1b-4062-bb65-40f4b329cfc0'
+  dockerRegistryServiceConnection: 'c7f3f81a-932b-430a-8dc7-10eb38aeef06'
   imageRepository: 'nagurdevopsdockerhelloworldflask'
   containerRegistry: 'demosampleacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
